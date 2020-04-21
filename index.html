@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SASS</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<!-- Наша контентная часть  -->
+		<div class="content">
+			<!-- Первый блок. Шапка сайта с приветсивем -->
+			<div class="header">
+				<div class="header__container bg">
+					<div class="header__body">
+						<div class="header__logo">
+							<img src="img/logo.png" alt="logo">
+						</div>
+						<div class="header__text ">
+							<div class="header__title">Clear, smart, attractive design </div>
+							<div class="header__subtitle">for your app, logo, website</div>
+						</div>
+						<div class="header__buttons">
+							<a href="#" class="header__btn btn">READ MORE</a>
+							<a href="" class="header__arrow"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Второй блок -->
+			<div class="navigation">
+				<!-- Контейнер -->
+				<div class="navigation__body">
+					<ul class="navigation__panel nav">
+						<li class="navigation__item">
+							<a href="#" class="navigation__link link">home</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#" class="navigation__link link">about us</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#" class="navigation__link link">portfolio</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#" class="navigation__link link">contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Третий блок -->
+			<div class="about">
+				<!-- Контейнер, ограничивающий ширину контента -->
+				<div class="about_body">
+					<!-- Верхняя часть блока -->
+					<div class="about__header">
+						<!-- Заголовок -->
+						<div class="about__title title">ABOUT</div>
+						<div class="about__text">We specialize in  			contemporary, functional, and stunning 	websites with design that really brings that 	"WOW" factor. <br> In our design process, we make sure to stay one step ahead of the latest trends, <br>never forgetting to abide by key web standards.
+					   	</div>
+					</div>
+					<!-- Нижняя часть блока -->
+					<div class="about__row">
+						<div class="about__column">
+							<!-- Отдельный блок -->
+							<div class="item-about">
+								<div class="item-about__icon">
+									<img src="img/icons/1.png" alt="">
+								</div>
+								<div class="item-about__title">WEB</div>
+								<div class="item-about__text">We tend to deliver unique and <br>functional design, through <br>innovation and creativity.</div>
+							</div>
+						</div>
+						<div class="about__column">
+							<div class="item-about">
+								<div class="item-about__icon">
+									<img src="img/icons/2.png" alt="">
+								</div>
+								<div class="item-about__title">IOS AND ANDROID</div>
+								<div class="item-about__text">We seek to bring new businesses and customers closer together through valuable insights and proper targeting.</div>
+							</div>
+						</div>
+						<div class="about__column">
+							<div class="item-about">
+								<div class="item-about__icon">
+									<img src="img/icons/3.png" alt="">
+								</div>
+								<div class="item-about__title">MARKETING</div>
+								<div class="item-about__text">We’ll help you establish the right goals and build the right paths. Success depends <br>on setting the right intention.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Четвёртый блок -->
+			<div class="portfolio">
+				<div class="portfolio__bg">
+					<div class="portfolio__body">
+						<div class="portfolio__title title">portfolio</div>
+						<ul class="portfolio__nav nav">
+							<li class="portfolio__link">
+								<a href="" class="portfolio__item link">all</a>
+							</li>
+							<li class="portfolio__link">
+								<a href="" class="portfolio__item link">web</a>
+							</li>
+							<li class="portfolio__link">
+								<a href="" class="portfolio__item link">apps</a>
+							</li>
+							<li class="portfolio__link">
+								<a href="" class="portfolio__item link">other</a>
+							</li>
+						</ul>
+						<div class="portfolio__pictures">
+							<img src="img/icons/pic.png" alt="" class="portfolio__img1">
+							<img src="img/icons/pic.png" alt="" class="portfolio__img">
+							<img src="img/icons/pic.png" alt="" class="portfolio__img1">
+							<img src="img/icons/pic.png" alt="" class="portfolio__img">
+							<img src="img/icons/pic.png" alt="" class="portfolio__img1 portfolio__last">
+							<img src="img/icons/pic.png" alt="" class="portfolio__img portfolio__last">
+						</div>
+						<a href="" class="portfolio__btn btn">READ MORE</a>
+					</div>
+				</div>	
+			</div>
+			<!-- Пятый блок -->
+			<div class="partners">
+				<div class="partners__bg bg">
+					<div class="partners__bg body">
+						<div class="partners__title">Our partners</div>
+						<div class="partners__logo">
+							<img src="img/icons/logo1.png" alt="" class="partners__img1">
+							<img src="img/icons/logo2.png" alt="" class="partners__img2">
+							<img src="img/icons/logo3.png" alt="" class="partners__img3">
+							<img src="img/icons/logo4.png" alt="" class="partners__img4">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Заключающий блок - Футер -->
+		<footer class="footer">
+				<div class="footer__bg">
+					<div class="footer__body">
+						<div class="footer__logo">
+							<img src="img/logo.png" alt="" class="footer__img">
+						</div>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="#" class="footer__link">Home</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Facebook</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Linkedin</a>
+							</li>
+							<li class="footer__item">
+								<a href="#" class="footer__link">Contact</a>
+							</li>
+						</ul>
+						<div class="footer__text">2015.All Rights Reserved</div>
+					</div>
+				</div>	
+		</footer>
+	</div>
+	<script scr="js/main.js"></script>
+</body>
+</html>
